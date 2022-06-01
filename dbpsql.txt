@@ -1,0 +1,61 @@
+CREATE DATABASE food;
+
+CREATE TABLE mood(
+id_mood serial,
+mood VARCHAR(50) NOT NULL,
+CONSTRAINT id_mood_pk PRIMARY KEY(id_mood));
+
+CREATE TABLE type(
+id_type serial,
+type VARCHAR(50) NOT NULL,
+CONSTRAINT id_type_PK PRIMARY KEY(id_type));
+
+CREATE TABLE food_list(
+id_meal serial,
+id_mood serial REFERENCES mood(id_mood),
+id_type serial REFERENCES type(id_type),
+meal_name VARCHAR(50) NOT NULL,
+PRIMARY KEY (id_meal));
+
+Insert Data
+MAKANAN
+-mood senang:
+INSERT INTO food_list VALUES(1,1,1,'Coklat');
+INSERT INTO food_list VALUES(2,1,1,'Pizza');
+INSERT INTO food_list VALUES(3,1,1,'Bakso');
+INSERT INTO food_list VALUES(4,1,1,'Ayam');
+INSERT INTO food_list VALUES(5,1,1,'Kue Tart');
+INSERT INTO food_list VALUES(6,1,1,'Cilor');
+INSERT INTO food_list VALUES(7,1,1,'Daging Sapi');
+INSERT INTO food_list VALUES(8,1,1,'Sushi');
+
+-mood sedih:
+INSERT INTO food_list VALUES(9,2,1,'Pisang');
+INSERT INTO food_list VALUES(10,2,1,'Alpukat');
+INSERT INTO food_list VALUES(11,2,1,'Yogurt');
+INSERT INTO food_list VALUES(12,2,1,'Es Krim');
+INSERT INTO food_list VALUES(13,2,1,'Salmon');
+INSERT INTO food_list VALUES(14,2,1,'Jamur');
+INSERT INTO food_list VALUES(15,2,1,'Roti');
+INSERT INTO food_list VALUES(16,2,1,'Seblak');
+
+MINUMAN
+-mood senang:
+INSERT INTO food_list VALUES(17,1,2,'Jus apel');
+INSERT INTO food_list VALUES(18,1,2,'Es jeruk');
+INSERT INTO food_list VALUES(19,1,2,'Jus Jambu');
+INSERT INTO food_list VALUES(20,1,2,'Boba');
+INSERT INTO food_list VALUES(21,1,2,'Thai tea');
+INSERT INTO food_list VALUES(22,1,2,'Es buah');
+INSERT INTO food_list VALUES(23,1,2,'Green tea');
+INSERT INTO food_list VALUES(24,1,2,'Milo');
+
+-mood sedih:
+INSERT INTO food_list VALUES(25,2,2,'Air kelapa');
+INSERT INTO food_list VALUES(26,2,2,'Kopi');
+INSERT INTO food_list VALUES(27,2,2,'Teh melati');
+INSERT INTO food_list VALUES(28,2,2,'Jus Strawberry');
+INSERT INTO food_list VALUES(29,2,2,'Jus Blueberry');
+INSERT INTO food_list VALUES(30,2,2,'Wedang Jahe');
+INSERT INTO food_list VALUES(31,2,2,'Madu');
+INSERT INTO food_list VALUES(32,2,2,'Jus Alpukat');
