@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Quicksand";
+}
+
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-container {
+    background: url("bg.png");
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 265px;
+    height: 90px;
+    top: 68px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    
+    color: #190933;
+}
+
+p {
+    width: 279px;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #000000;
+}
+
+a {
+    color: #000000;
+    font-size: 25px;
+
+    background: #FFDBC3;
+    border-radius: 7.18147px;
+    padding: 7.18147px 35.9073px;
+    border: 2.87259px solid #EE9E8E;
+    display: inline-block;
+    transition: 300ms;
+    
+   
+}
+
+.hero-image {
+    position: relative;
+    top: 339.46px;
+    left: 519px;
+}
+
+.frame-image{
+    position: absolute;
+    width: 1440px;
+    height: 485px;
+    top: 539px;
+    border-radius: 80px 80px 0px 0px;
+}
+
+.header-page2 {
+    background: #FFF5E0;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.wrapper-page2 {
+    margin: 0 auto;
+    position: relative;
+}
+
+.emoticon{
+    position: relative;
+    top: 339.46px;
+    left: 519px;
+}
+
+.header-page3 {
+    background: #FFF5E0;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.wrapper-page3 {
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-page4 {
+    background: #FFF5E0;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.wrapper-page4 {
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-page5 {
+    background: #FFF5E0;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.wrapper-page5 {
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-page6 {
+    background: #FFF5E0;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.wrapper-page6 {
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-page7 {
+    background: #FFF5E0;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.wrapper-page7 {
+    margin: 0 auto;
+    position: relative;
+}
