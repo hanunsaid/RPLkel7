@@ -1,0 +1,18 @@
+CREATE DATABASE food;
+
+CREATE TABLE mood(
+id_mood serial,
+mood VARCHAR(50) NOT NULL,
+CONSTRAINT id_mood_pk PRIMARY KEY(id_mood));
+
+CREATE TABLE type(
+id_type serial,
+type VARCHAR(50) NOT NULL,
+CONSTRAINT id_type_PK PRIMARY KEY(id_type));
+
+CREATE TABLE food_list(
+id_meal serial,
+id_mood serial REFERENCES mood(id_mood),
+id_type serial REFERENCES type(id_type),
+meal_name VARCHAR(50) NOT NULL,
+PRIMARY KEY (id_meal));
