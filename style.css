@@ -457,7 +457,8 @@ p.desc1 {
 
 .dashboard-button{
     display: flex;
-    background-image: url("rpl/bg2.png");
+    background-image: url("Bingung/Makanan/2.png");
+    background-size: 250px 420px;
     border: none;
     color: white;
     text-align: left;
