@@ -452,7 +452,7 @@ p.desc1 {
 #category-button{
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .dashboard-button1a{
@@ -878,6 +878,198 @@ p4 {
     font-style: normal;
     font-weight: 1000;
     font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-left: 0.7em;
+
+    color: #F8F4EF;
+}
+
+.box7{
+    text-align: center;
+    position: absolute;
+    width:60em;
+    height: 35em;
+    background: 
+				linear-gradient(180deg, rgba(0, 0, 0, 0) 50.94%, 
+                rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.8) 100%), 
+                linear-gradient(0deg, rgba(0, 0, 0, 0.05), 
+                rgba(0, 0, 0, 0.05)), url(pisang.png) no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+}
+
+h9 {
+    align-items: flex-start;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 4em;
+    line-height: 75px;
+    text-align: center;
+    margin-left: 0.2em;
+
+    margin-top: 5em;
+
+    color: #F8F4EF;
+}
+
+p5 {
+    margin-top: 0.2em;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-left: 0.7em;
+
+    color: #F8F4EF;
+}
+
+.box8{
+    text-align: center;
+    position: absolute;
+    width:60em;
+    height: 35em;
+    background: 
+				linear-gradient(180deg, rgba(0, 0, 0, 0) 50.94%, 
+                rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.8) 100%), 
+                linear-gradient(0deg, rgba(0, 0, 0, 0.05), 
+                rgba(0, 0, 0, 0.05)), url(jamur.png) no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+}
+
+h10 {
+    align-items: flex-start;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 4em;
+    line-height: 75px;
+    text-align: center;
+    margin-left: 0.2em;
+
+    margin-top: 5em;
+
+    color: #F8F4EF;
+}
+
+p6 {
+    margin-top: 0.2em;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-left: 0.7em;
+
+    color: #F8F4EF;
+}
+
+.box9{
+    text-align: center;
+    position: absolute;
+    width:60em;
+    height: 35em;
+    background: 
+				linear-gradient(180deg, rgba(0, 0, 0, 0) 50.94%, 
+                rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.8) 100%), 
+                linear-gradient(0deg, rgba(0, 0, 0, 0.05), 
+                rgba(0, 0, 0, 0.05)), url(roti.png) no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+}
+
+h11 {
+    align-items: flex-start;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 4em;
+    line-height: 75px;
+    text-align: center;
+    margin-left: 0.2em;
+
+    margin-top: 5em;
+
+    color: #F8F4EF;
+}
+
+p7 {
+    margin-top: 0.2em;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 23px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-left: 0.7em;
+
+    color: #F8F4EF;
+}
+
+.box10{
+    text-align: center;
+    position: absolute;
+    width:60em;
+    height: 35em;
+    background: 
+				linear-gradient(180deg, rgba(0, 0, 0, 0) 50.94%, 
+                rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.8) 100%), 
+                linear-gradient(0deg, rgba(0, 0, 0, 0.05), 
+                rgba(0, 0, 0, 0.05)), url(jeruk.png) no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+}
+
+h12 {
+    align-items: flex-start;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 4em;
+    line-height: 75px;
+    text-align: center;
+    margin-left: 0.2em;
+
+    margin-top: 5em;
+
+    color: #F8F4EF;
+}
+
+p8 {
+    margin-top: 0.2em;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: left;
