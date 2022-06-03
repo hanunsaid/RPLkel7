@@ -455,7 +455,7 @@ p.desc1 {
     flex-direction: row;
 }
 
-.dashboard-button{
+.dashboard-button1a{
     display: flex;
     background-image: url("Bingung/Makanan/2.png");
     background-size: 250px 420px;
@@ -483,3 +483,198 @@ p.desc1 {
     cursor: pointer;
 }
 
+.dashboard-button2a{
+    display: flex;
+    background-image: url("Bingung/Makanan/3.png");
+    background-size: 250px 420px;
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 32px;
+    width: 190px;
+    padding: 400px 230px 12px 18px;
+    font-size: 1.7em;
+    outline: none;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: #000000;
+    text-decoration: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.dashboard-button3a{
+    display: flex;
+    background-image: url("Bingung/Makanan/4.png");
+    background-size: 250px 420px;
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 32px;
+    width: 190px;
+    padding: 400px 230px 12px 18px;
+    font-size: 1.7em;
+    outline: none;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: #000000;
+    text-decoration: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.dashboard-button4a{
+    display: flex;
+    background-image: url("Bingung/Makanan/5.png");
+    background-size: 250px 420px;
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 32px;
+    width: 190px;
+    padding: 400px 230px 12px 18px;
+    font-size: 1.7em;
+    outline: none;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: #000000;
+    text-decoration: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.dashboard-button1b{
+    display: flex;
+    background-image: url("Bingung/Minuman/3.png");
+    background-size: 250px 420px;
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 32px;
+    width: 190px;
+    padding: 400px 230px 12px 18px;
+    font-size: 1.7em;
+    outline: none;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: #000000;
+    text-decoration: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.dashboard-button2b{
+    display: flex;
+    background-image: url("Bingung/Minuman/2.png");
+    background-size: 250px 420px;
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 32px;
+    width: 190px;
+    padding: 400px 230px 12px 18px;
+    font-size: 1.7em;
+    outline: none;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: #000000;
+    text-decoration: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.dashboard-button3b{
+    display: flex;
+    background-image: url("Bingung/Minuman/11.png");
+    background-size: 250px 420px;
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 32px;
+    width: 190px;
+    padding: 400px 230px 12px 18px;
+    font-size: 1.7em;
+    outline: none;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: #000000;
+    text-decoration: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.dashboard-button4b{
+    display: flex;
+    background-image: url("Bingung/Minuman/14.png");
+    background-size: 250px 420px;
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 32px;
+    width: 190px;
+    padding: 400px 230px 12px 18px;
+    font-size: 1.7em;
+    outline: none;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: #000000;
+    text-decoration: none;
+    transition: .2s;
+    cursor: pointer;
+}
