@@ -455,9 +455,14 @@ p.desc1 {
     flex-direction: row;
 }
 
+$rand1: random(16);
+$rand2: random(16);
+$rand3: random(16);
+$rand4: random(16);
+
 .dashboard-button1a{
     display: flex;
-    background-image: url("Bingung/Makanan/2.png");
+    background-image: url("Bingung/Makanan/#{$rand1}.png");
     background-size: 250px 420px;
     border: none;
     color: white;
@@ -485,7 +490,7 @@ p.desc1 {
 
 .dashboard-button2a{
     display: flex;
-    background-image: url("Bingung/Makanan/3.png");
+    background-image: url("Bingung/Makanan/#{$rand2}.png");
     background-size: 250px 420px;
     border: none;
     color: white;
@@ -513,7 +518,7 @@ p.desc1 {
 
 .dashboard-button3a{
     display: flex;
-    background-image: url("Bingung/Makanan/4.png");
+    background-image: url("Bingung/Makanan/#{$rand3}.png");
     background-size: 250px 420px;
     border: none;
     color: white;
@@ -541,7 +546,7 @@ p.desc1 {
 
 .dashboard-button4a{
     display: flex;
-    background-image: url("Bingung/Makanan/5.png");
+    background-image: url("Bingung/Makanan/#{$rand4}.png");
     background-size: 250px 420px;
     border: none;
     color: white;
@@ -569,7 +574,7 @@ p.desc1 {
 
 .dashboard-button1b{
     display: flex;
-    background-image: url("Bingung/Minuman/3.png");
+    background-image: url("Bingung/Minuman/#{$rand1}.png");
     background-size: 250px 420px;
     border: none;
     color: white;
@@ -597,7 +602,7 @@ p.desc1 {
 
 .dashboard-button2b{
     display: flex;
-    background-image: url("Bingung/Minuman/2.png");
+    background-image: url("Bingung/Minuman/#{$rand2}.png");
     background-size: 250px 420px;
     border: none;
     color: white;
@@ -625,7 +630,7 @@ p.desc1 {
 
 .dashboard-button3b{
     display: flex;
-    background-image: url("Bingung/Minuman/11.png");
+    background-image: url("Bingung/Minuman/#{$rand3}.png");
     background-size: 250px 420px;
     border: none;
     color: white;
@@ -653,7 +658,7 @@ p.desc1 {
 
 .dashboard-button4b{
     display: flex;
-    background-image: url("Bingung/Minuman/14.png");
+    background-image: url("Bingung/Minuman/#{$rand4}.png");
     background-size: 250px 420px;
     border: none;
     color: white;
